@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de selectores: pseudoclases y pseudoelementos</title>
+    <style>
+        /*color del parrafo salmon*/
+        p{
+            color: salmon;
+        }
+        /*toma la primera letra de todos los parrafos y los cambia a negro*/
+        p::first-letter{
+            color: black;
+        }
+        /*colocar antes de cada texto un emoji, pero me elimina la primera letra*/
+        P::before{
+            content:"🥸";
+        }
+        /*colocar despues de cada texto un emoji, pero me elimina la primera letra*/
+        p::after{
+            content: "💅🏼";
+        }
+        /*al pasar el puntero cambia el color del parrafo a blue*/
+        p:hover{
+            color: blue;
+        }
+        /*toma el parrafo hijo 2 del div y lo cambia a color violeta*/
+        div p:nth-child(2){
+            color: blueviolet;
+        }
+        /*cambiar el color al placeholder del input*/
+        ::placeholder{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Platzi</p>
+        <p>Master</p>
+        <p>Lo mejor</p>
+    </div>
+    <input type="text" placeholder="Name">
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display-1</title>
+    <style>
+        /*3 PRINCIPALES TIPOS DE DISPLAY*/
+
+        /*el body siempre tiene un margen, con este comando se lo quitamos*/
+        body {
+            margin: 0;
+        }
+        /*1) el div es tipo bloque, se manejan con las siguientes propiedades*/
+        div {
+            background: salmon;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        /*2) hipervinculo es tipo en linea, los elemento en lines no tienen valides con width, height 
+        y el margin solo lo toma en la parte izquierda*/
+        a {
+            background: skyblue;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+        }
+        /*3) Button es un elemento en linea y en bloque por esta razon permite utilizar el width y el height*/
+        button {
+            background: slateblue;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>bloque</div>
+    <a href="/">inline</a>
+    <button>inline block</button>
+</body>
+</html>
