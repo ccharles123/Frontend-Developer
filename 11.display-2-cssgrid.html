@@ -4,8 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS GRID</title>
+    <style>
+        .container {
+            display: grid; /*toma a los hijos del container y los coloca de forma vertical uno debajo del otro*/
+            width: 400px;
+            height: 400px;
+            background: papayawhip;
+            grid-template-columns: 1fr 1fr 1fr 1fr; /*divide y coloca de en forma de columna a 1fr(porcion) en este caso en 4 pociones de su total*/
+            grid-template-rows: 1fr 1fr 1fr 1fr; /*divide y coloca de en forma de filas a 1fr(porcion) en este caso en 4 pociones de su total*/
+        }
+
+        .item{
+            background: pink;
+        }
+        /*vamos a ubicar los item hijos en las fracciones que queremos*/
+        .container .item:nth-child(1) {
+            grid-column: 1 / 2;
+        }
+        .container .item:nth-child(2) {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+        .container .item:nth-child(3) {
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+        .container .item:nth-child(4) {
+            grid-column: 4 / 5;
+            grid-row: 4 / 5;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
 </body>
 </html>
