@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colapso-Margenes</title>
+    <style>
+        /*para que no se colapsen los margenes se coloca una section (tipo bloque) con clase: container y luego el display:flex*/
+        .container{
+            display: flex;
+            flex-direction: column;
+            border: 3px black solid;
+        }
+        div{
+            margin: 20px;
+            border: 3px pink solid;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div>Platzi</div>
+        <div>Master</div>
+    </section>
+</body>
+</html>
