@@ -31,24 +31,15 @@ body {
     width: 300px;
 }
 
-.logo{
-    width: 150px;
-    margin-bottom: 48px;
-    justify-self: center;
-    display: none;
+.title{
+    font-size: var(--lg);
+    margin-bottom: 36px;
+    text-align: start;
 }
 
 .form{
     display: flex;
     flex-direction: column;
-}
-
-.form a{
-    color: var(--hospital-green);
-    font-size: var(--sm);
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 54px;
 }
 
 .label{
@@ -57,36 +48,10 @@ body {
     margin-bottom: 4px;
 }
 
-.input{
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
-    height: 30px;
+.value{
+    color: var(--very-light-pink);
     font-size: var(--md);
-    padding: 6px;
-    margin-bottom: 12px;
-}
-
-.input-email{
-    margin-bottom: 22px;
-}
-
-.primary-button{
-    background-color: var(--hospital-green);
-    border-radius: 8px;
-    border: none;
-    color: var(--white);
-    width: 100%;
-    cursor: pointer;
-    font-size: var(--md);
-    font-weight: bold;
-    height: 50px;
-    
-}
-
-.login-button{
-    margin-top: 14px;
-    margin-bottom: 30px;
+    margin: 8px 0 32px 0;
 }
 
 .secondary-button{
@@ -101,17 +66,17 @@ body {
     height: 50px;
 }
 
+.login-button{
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
 
 @media (max-width:640px) {
-
-    .logo{
-        display: block;
-        margin-top: 100px;
-    }
-
-    .secondary-button{
-        margin-top: 60px;
+    .login-button{
+        margin-top: 180px;
         margin-bottom: 0px;
     }
-    
+    .title{
+        margin-top: 50px;
+    }
 }
