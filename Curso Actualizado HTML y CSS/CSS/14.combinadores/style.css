@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+/* Hermano ADYACENTE O CERCANO: cambia a color rojo los p que esten cerca a un h2 */
+/* h2 + p{
+    color: red;
+}  */
+
+/*Hermano GENERAL O CERCANO: cambia a color azul los p que tengan un hermano general a un h2*/
+/* h2 ~ p{
+    color: blue;
+} */
+
+/* Hijos y Decendientes*/
+
+/*la etiqueta p que sea hija directa de una etiqueta div*/
+
+/* div > p{
+    color: red;
+} */
+
+/*la etiqueta p que esté dentro de ina etiqueta div*/
+div p{
+    color: blue;
+}

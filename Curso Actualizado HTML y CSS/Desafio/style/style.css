@@ -1,0 +1,36 @@
+h1 {
+    font-size: 50x;
+    text-align: center;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    justify-content:space-around;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.frutas{
+    color: blueviolet;
+}
+
+.carnes{
+    color: red;
+}
+
+.verduras{
+    color: green;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    border: 1px solid;
+    /*max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    /*object-fit: contain; /* Mantiene las proporciones de la imagen */
+    object-fit: cover;
+}

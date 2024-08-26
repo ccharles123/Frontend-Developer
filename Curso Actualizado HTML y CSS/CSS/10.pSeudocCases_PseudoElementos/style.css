@@ -1,0 +1,30 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Pseudo Clases*/
+.main-nav__item a:hover {
+    color: rgb(0, 255, 76);
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/*Pseudo Elementos*/
+.main-nav__item a::after{
+    content: " | ";
+}
