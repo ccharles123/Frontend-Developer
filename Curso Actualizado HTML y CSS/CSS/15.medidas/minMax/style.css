@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+
+section{
+    font-size: 1.8rem;
+    width: 80%;
+    min-height: 500px; /*la altura se acomoda con el texto*/
+    margin: 0 auto; /*agrega el margin solo a los lados para que esté centrado*/
+    min-width: 320px;/*no se va ha ajecutar cuando la pantalla tenga minimo 320px*/
+    max-width: 500px;/*se va ha ajecutar cuando la pantalla tenga maximo 500px*/
+    background-color: blue;
+}

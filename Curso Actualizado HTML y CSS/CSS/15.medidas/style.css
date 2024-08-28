@@ -4,12 +4,31 @@
     margin: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 main{
     background-color: red;
     width: 100%;
     height: 100vh;
 }
 
+/*absoluto*/
 p{
     font-size: 18px;
+}
+
+/*em: va ha ser igual al tamaño del padre, depende de donde este*/
+p{
+    font-size: 1em;
+}
+
+/*rem: va ha ser igual al de el html, para hacerlo divisibe en 10 se colocar que el fontsize del html es 62.5%*/
+html{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1.6 rem;/*con la adecuacion en el html, aquí toma la medida de 16px*/
 }
