@@ -1,0 +1,51 @@
+    *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap; /*cuando la pantalla se coloque mas pequeña se van a bajar los box*/
+    align-content: center;
+    justify-content:space-evenly;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: burlywood;
+}
+
+.box4{
+    background-color: cadetblue;
+}
+
+.box5{
+    background-color: coral;
+}
+
+.box6{
+    background-color: salmon;
+}

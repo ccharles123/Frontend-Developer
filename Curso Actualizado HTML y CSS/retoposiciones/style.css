@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+html{
+    font-size: 62.5%;
+}
+
+.header1{
+    font-size: 1.6rem;
+    background-color: yellow;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+
+.nav{
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.list li{
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.mail{
+    background-color: blueviolet;
+    width: 100%;
+    height: 85vh;
+    font-size: 1.6rem;
+    display: flex;
+}
+
+.new{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.new2{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 130px;
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    background-color: bisque;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.redes{
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
