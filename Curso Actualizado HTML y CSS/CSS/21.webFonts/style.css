@@ -1,0 +1,30 @@
+:root{
+    --primary--color: #003476;
+    --secondary--color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+    --font--title: 4rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1{
+    font-weight: 900;
+    font-style: normal;
+    font-size: var(--header-size);
+}

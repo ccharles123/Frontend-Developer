@@ -1,4 +1,4 @@
-    *{
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -12,18 +12,17 @@ body{
     font-size: 1.6rem;
 }
 
+
 .container{
     border: 0.1rem solid black;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /*cuando la pantalla se coloque mas pequeña se van a bajar los box*/
-    align-content: center;
-    justify-content:space-evenly;
+    flex-wrap: wrap; /*hace que cuando la pantalla disminuya este baje el contenedor*/
 }
 
 .box{
     width: 10rem;
     height: 10rem;
+    flex-grow: 1; /*hace que el contenedor que baje ocupe todo el ancho de la pantalla*/
 }
 
 .box1{
